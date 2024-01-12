@@ -1,0 +1,112 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+}
+body {
+  color: white;
+  background-color: #111111;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+h1 {
+  text-align: center;
+  font-size: 35px;
+}
+p,
+li {
+  font-size: 22px;
+}
+
+h2 {
+  font-size: 40px;
+  text-decoration: underline;
+}
+
+#kenna_logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  position: sticky;
+  top: 10px;
+}
+
+.nav li {
+  display: inline;
+  padding: 5px 17px;
+  background-color: red;
+  font-weight: bold;
+}
+
+a:link {
+  color: white;
+  text-decoration: none;
+}
+a:visited {
+  color: white;
+  text-decoration: none;
+}
+a:hover {
+  color: black;
+}
+
+#kenna2 {
+  float: right;
+}
+
+#basf {
+  float: left;
+  width: 250px;
+  height: 250px;
+  margin: 10px;
+}
+
+#sql {
+  float: right;
+  width: 250px;
+  height: 250px;
+}
+
+#rogers {
+  float: left;
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+}
+
+#database {
+  width: 267px;
+  height: 150px;
+  float: right;
+}
+
+#collab {
+  width: 336px;
+  height: 275px;
+  float: left;
+  margin: 10px;
+}
+
+#think {
+  float: right;
+  height: 250px;
+  width: 250px;
+}
+
+#report {
+  float: left;
+  height: 250px;
+  width: 325px;
+  margin: 10px;
+}
+
+#sumit {
+  height: 256px;
+  width: 318px;
+}
