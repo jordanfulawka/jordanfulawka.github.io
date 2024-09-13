@@ -68,7 +68,7 @@ a:hover {
 }
 
 #sql {
-  float: right;
+  float: left;
   width: 250px;
   height: 250px;
 }
@@ -93,7 +93,7 @@ a:hover {
   margin: 10px;
 }
 
-#think {
+#time {
   float: right;
   height: 250px;
   width: 250px;
@@ -102,11 +102,17 @@ a:hover {
 #report {
   float: left;
   height: 250px;
-  width: 325px;
+  width: 380px;
   margin: 10px;
 }
 
 #sumit {
   height: 256px;
   width: 318px;
+}
+
+#tableau {
+  float: right;
+  width: 354px;
+  height: 250px;
 }
