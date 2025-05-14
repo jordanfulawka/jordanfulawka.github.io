@@ -67,9 +67,9 @@ a:hover {
   margin: 10px;
 }
 
-#sql {
+#full-stack {
   float: left;
-  width: 250px;
+  width: 500px;
   height: 250px;
 }
 
@@ -93,16 +93,16 @@ a:hover {
   margin: 10px;
 }
 
-#time {
+#collaboration {
   float: right;
   height: 250px;
   width: 250px;
 }
 
-#report {
+#development {
   float: left;
   height: 250px;
-  width: 380px;
+  width: 260px;
   margin: 10px;
 }
 
@@ -111,8 +111,8 @@ a:hover {
   width: 318px;
 }
 
-#tableau {
+#react {
   float: right;
-  width: 354px;
+  width: 425px;
   height: 250px;
 }
