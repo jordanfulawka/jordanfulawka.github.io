@@ -1,118 +1,107 @@
 * {
-  font-family: Arial, Helvetica, sans-serif;
-  line-height: 1.5;
+  box-sizing: border-box;
+  font-family: "Inter", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  line-height: 1.6;
 }
+
 body {
-  color: white;
-  background-color: #111111;
-  padding-left: 10px;
-  padding-right: 10px;
+  color: #f5f5f5;
+  background-color: #1a1a1a;
+  margin: 0;
+  padding: 0 20px;
 }
+
 h1 {
   text-align: center;
-  font-size: 35px;
-}
-p,
-li {
-  font-size: 22px;
+  font-size: 2.5rem;
+  margin-top: 30px;
+  color: #ffffff;
 }
 
 h2 {
-  font-size: 40px;
-  text-decoration: underline;
+  font-size: 2rem;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  color: #ff4d4d;
+  border-bottom: 3px solid #ff4d4d;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+p,
+li {
+  font-size: 1.1rem;
+  margin-bottom: 20px;
 }
 
 #kenna_logo {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 30px auto;
+  max-width: 250px;
+}
+
+img {
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
 }
 
 .nav {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  background: #222;
+  padding: 15px 0;
   position: sticky;
-  top: 10px;
+  top: 0;
+  z-index: 1000;
+  border-bottom: 2px solid #ff4d4d;
 }
 
 .nav li {
   display: inline;
-  padding: 5px 17px;
-  background-color: red;
-  font-weight: bold;
 }
 
-a:link {
-  color: white;
+.nav a {
+  color: #f5f5f5;
   text-decoration: none;
-}
-a:visited {
-  color: white;
-  text-decoration: none;
-}
-a:hover {
-  color: black;
+  font-weight: 600;
+  padding: 8px 16px;
+  border-radius: 6px;
+  transition: all 0.3s ease;
 }
 
-#kenna2 {
+.nav a:hover {
+  background-color: #ff4d4d;
+  color: #fff;
+}
+
+#kenna2,
+#database,
+#ecs,
+#aws {
   float: right;
+  margin: 15px;
+  max-width: 45%;
 }
 
-#basf {
-  float: left;
-  width: 250px;
-  height: 250px;
-  margin: 10px;
-}
-
-#full-stack {
-  float: left;
-  width: 500px;
-  height: 250px;
-}
-
-#rogers {
-  float: left;
-  width: 200px;
-  height: 200px;
-  margin: 10px;
-}
-
-#database {
-  width: 267px;
-  height: 150px;
-  float: right;
-}
-
-#collab {
-  width: 336px;
-  height: 275px;
-  float: left;
-  margin: 10px;
-}
-
-#collaboration {
-  float: right;
-  height: 250px;
-  width: 250px;
-}
-
+#basf,
+#vitest,
+#rogers,
 #development {
   float: left;
-  height: 250px;
-  width: 260px;
-  margin: 10px;
+  margin: 15px;
+  max-width: 45%;
 }
 
-#sumit {
-  height: 256px;
-  width: 318px;
+p::after {
+  content: "";
+  display: block;
+  clear: both;
 }
 
-#react {
-  float: right;
-  width: 425px;
-  height: 250px;
+hr {
+  border: 0;
+  height: 2px;
+  background: #333;
+  margin: 30px 0;
 }
